@@ -1,0 +1,19 @@
+{
+  "name": "india-finance-calc",
+  "version": "0.1.0",
+  "description": "Indian personal finance formulas: SIP, step-up SIP, lumpsum, EMI, FD, RD, PPF, Sukanya, income tax (new vs old regime), HRA, gratuity, inflation, lakh/crore formatting. The same maths as gainly.in.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./src/index.js" } },
+  "files": ["src", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["india", "finance", "calculator", "sip", "emi", "income-tax", "ppf", "fd", "hra", "gratuity", "lakh", "crore", "inr"],
+  "author": "Gainly (https://gainly.in)",
+  "homepage": "https://gainly.in",
+  "repository": { "type": "git", "url": "git+https://github.com/gainlyfinance/india-finance-calc.git" },
+  "bugs": { "url": "https://github.com/gainlyfinance/india-finance-calc/issues" },
+  "license": "MIT",
+  "sideEffects": false
+}
